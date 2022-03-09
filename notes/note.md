@@ -20,3 +20,8 @@ Install Vue Router
 ```
 vue add router
 ```
+
+Install vuex
+```
+vue add vuex
+```

@@ -3,15 +3,19 @@
     <Header />
     <!-- view yang ada pada folder views -->
     <router-view/>
+    <!-- buat demo vuex -->
+    <Counter />
   </div>
 </template>
 
 <script>
 import Header from './components/layout/Header.vue'
+import Counter from './components/layout/Counter.vue'
 
 export default {
   components: {
-    Header
+    Header,
+    Counter
   }
 }
 </script>
